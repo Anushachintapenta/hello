@@ -1,6 +1,0 @@
-From node:7-onbuild
-LABEL maintainer "anusha1999295@gmail.com"
-HEALTHCHECK --interval=5s \
-            --timeout=5s \
-			CMD curl -f http://127.0.0.1:8080 ||exit1
-EXPOSE 8000
